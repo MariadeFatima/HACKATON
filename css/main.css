@@ -1,0 +1,333 @@
+/* {outline:1px red;}
+div{outline:1px solid blue;}
+/*html body{outline:1px solid red;}
+*/
+/*****************GLOBAL********************/
+img{
+	padding: 0px;
+	margin: 0px;
+}
+hr{
+    margin: 0px 10px;
+}
+.hr3{
+	width:3px;
+	color:black;
+}
+.hr1{
+	margin: 10px 10px;
+}
+.item img{
+	transition:all 0.5s;
+	-webkit-filter: grayscale(100%);
+}
+.item img:hover{
+	text-decoration: none;/*nos aseguramos q no tenga subrayado*/
+	padding: 0px;
+	-webkit-filter: none;
+}
+.noticias img{
+	transition:all 0.5s;
+	-webkit-filter: grayscale(70%);
+}
+.noticias img:hover{
+	-webkit-filter: none;
+}
+/*****************HEADER********************/
+.h-content{
+	height: 100px;
+	padding:0px 10px 0px 10px;
+}
+/*login*/
+.h-content a .login{
+	display: inline-block;
+	float: left;
+}
+/*logo de la facultad*/
+.h-content img{
+	width: 300px;
+}
+/*login*/
+.login{
+	float:right;
+	font-size: 9px;
+	margin: 5px;
+}
+.check{
+	width: 15px;
+}
+.login p, .check{
+	margin: 3px;
+}
+/*menu*/
+.menu{
+	margin: 10px;
+}
+.menu ul li a{
+	color:#C3463F;
+	padding: 10px 30px;
+	font-size: 15px;
+}
+.dropdown-menu ul li a {
+	text-align: right;
+}
+/*Carrusel*/
+.item h2{
+	color:#EFECE7;
+	font-family: sans-serif;
+	text-shadow: 2px 2px black;
+	font-size: 60px;
+}
+/*Noticias-examen*/
+.examen{
+	background:#A30936;
+	color:#95917F; 
+}
+.logo-admision .texto-admision {
+	display: inline-block;
+}
+.logo-admision .glyphicon{
+	padding: 10px 0px;
+	font-size: 65px;
+	color: #ED9819;
+}
+.examen .texto-admision{
+	font-family: sans-serif;
+	color:#EFECE7;
+}
+.examen .texto-admision a{
+	color:#ED9819;
+}
+h4{
+	font-size: 30px;
+	padding-top:2px;
+}
+/*Noticias-lista*/
+.noticias .list-nav{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.noticias .list-nav{
+	text-align: center;
+}
+.noticias .list-nav li{
+	display: inline-block;
+}
+.noticias .list-nav a{
+	display: block; /*para que tengan mas cuerpo*/
+	padding: 15px 20px;/**/
+	color:#A01313;
+	font-family:"IM Fell DW Pica","Lobster", verdana, serif;/*definido por google*/
+	/*text-transform: uppercase; letras en mayuscula*/
+	font-size: 20px;
+	text-decoration: none;/*para que no tenga el subrayado de enlace*/
+	transition:all 0.5s;
+	opacity: 0.8;
+}
+.noticias .list-nav a:hover{
+	text-decoration: none;/*nos aseguramos q no tenga subrayado*/
+	padding: 0px;
+	opacity: 1;
+}
+/*Noticias 2*/
+.noticias{
+	background: url("../img/periodico.jpg");
+	text-align: justify;
+}
+.noticias-content{
+	padding: 50px 0px; 
+}
+.news1, .news2, .news3, .news4{
+	border:dashed 1px #95917F;
+	background: #FCFCFC;
+}
+.news1{
+	margin:0px 94px 50px 0px;
+}
+.news3{
+	float: right;
+}
+.thumbnail {
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: none;
+	float:left;
+	width:155px;
+	padding: 0px 10px 0px 0px;
+}
+.thumbnail a{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+	float:left;
+	width:155px;
+	padding: 0px 10px 0px 0px;
+}
+.thumbnail a{
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+	float:left;
+	width:155px;
+	padding: 0px 10px 0px 0px;
+}
+.noticias p{
+	font-family:Verdana;
+}
+h3, .texto{
+	color:#95917F;
+}
+.noticias .texto a{
+	color:#EFECE7;
+}
+
+/*****************CARRERAS********************/
+.carreras{
+	background: url("../img/fondogranito.jpg");
+	text-align: center;
+	color:#333;
+	font-weight: bold;
+	font-family: verdana;
+}
+marquee h3{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #EFECE7;
+	padding: 40px 0px;
+}
+.x {
+	display: inline-block;
+	border: solid 1px #333;
+	margin: 10px 47.5px;
+	background: transparent;
+}
+.x a{
+	text-decoration: none;
+}
+.x h5, .carreras h5 {
+	display: block; /*para que tengan mas cuerpo*/
+	padding: 0px 0px;
+	color:#333;
+	font-family:Verdana;
+	font-size: 18px;
+	font-weight: bold
+}
+.x span{
+	font-size: 100px; 
+	color: #333;
+	padding-top:10px;
+}
+.electrica span{
+	font-size: 105px;
+}
+.electronica{
+	float: right;
+}
+.sistemas{
+	margin: 10px 0px 10px 45px;
+}
+.computacion{
+	margin: 187px 0px 20px -285px;
+}
+.x a{
+transition:all 0.5s;
+}
+.carreras .x a:hover{
+transform: scale(1.1);
+}
+
+/******************HISTORIA********************/
+.historia{
+	background: url("../img/historia.jpg");
+	background-size: cover; 
+	margin:0px;
+	height: 600px;
+}
+.historia h4{
+	font-family: sans-serif;
+	color:#EFECE7;
+	font-size: 35px;
+	margin-top:50px;
+}
+.historia-content{
+	background: black;
+	opacity: 0.8;
+	text-align: justify;
+	margin:20px 0px;
+}
+.historia{
+	margin: 10px 0px;
+}
+.historia p{
+	color:white;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.text-historia{
+	padding: 20px;
+}
+/********************AUTORIDADES********************/
+.autoridades{
+	background: url("../img/fondogranito.jpg");
+}
+.autoridades h5{
+	padding-bottom: 20px; 
+}
+.autoridades h1{
+	margin-left:105px;
+	color:#A30936;
+}
+.autoridades h3{
+	color:#ED9819;
+}
+.maps{
+	float:right;
+}
+.t img{
+	width:300px;
+	margin:50px 0px 0px 0px;
+}
+.t{
+	text-align: center;
+}
+.t img{
+	border-radius: 100%;
+}
+/*****************FOOTER********************/
+.pie-pagina{
+width: 100%;
+height: 190px;
+background-color: #0a0a0f;
+opacity: 0.5;
+
+	
+}
+.menu-final li{
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+.menu-final{
+	text-align: center;
+	padding: 20px;
+}
+.pie-pagina img{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	transition:all 0.5s;
+}
+
+.pie-pagina p{
+width: 300px;
+float: right;
+margin-right: 100px;
+}
+.pie-pagina img:hover{
+	size: 50px;
+}
+.header-2 .h-content img{
+	border-radius:0px;
+}

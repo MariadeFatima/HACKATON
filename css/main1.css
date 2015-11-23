@@ -1,0 +1,221 @@
+/* {outline:1px red;}
+div{outline:1px solid blue;}
+/*html body{outline:1px solid red;}
+*/
+/*****************GLOBAL********************/
+.container
+{
+
+	width: 100%;
+	height: 100%;
+
+
+
+}
+
+
+}
+img{
+	padding: 0px;
+	margin: 0px;
+}
+hr{
+    margin: 0px 10px;
+    padding: 0px;
+}
+.hr1{
+	margin: 10px 10px;
+}
+/*****************HEADER********************/
+.header{
+	height: 98px;
+}
+.h-content{
+	height: 100px;
+	padding:0px 10px 0px 10px;
+}
+/*login*/
+.h-content a .login{
+	display: inline-block;
+	float: left;
+}
+/*logo de la facultad*/
+.h-content img{
+	width: 250px;
+	border-bottom:1px black;
+}
+/*login*/
+.login{
+	float:right;
+	font-size: 9px;
+	margin: 5px;
+}
+.check{
+	width: 15px;
+}
+.login p, .check{
+	margin: 3px;
+}
+/*menu*/
+.menu{
+	margin: 10px;
+}
+.menu{
+	top:75px;
+}
+.menu ul li a{
+	color:#C3463F;
+	padding: 10px 30px;
+	font-size: 13px;
+}
+.dropdown-menu ul li a {
+	text-align: right;
+}
+
+.perfil img{
+	width: 100%;
+	height: 600px;
+	margin-bottom: -100px;
+}
+
+.bienvenidos{
+margin-top: -450px;
+margin-left: 200px;
+}
+.bienvenidos p{margin-top:50px;
+
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+font-weight: bold;
+
+}
+.more{
+	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	background: url("../img/fondogranito.jpg");
+	opacity: 0.7;
+	margin-top:200px;
+
+}
+.texto{
+	
+	width: 800px;
+	margin-top: 310px;
+	margin-left: 100px;
+	border: 1px solid grey;
+	padding: 50px;
+	background-color: #000000;
+	opacity: 0.8;
+	margin-bottom: 50px;
+	color:rgb(230, 230, 230)
+
+}
+.texto p {
+	font-size: 45px;
+	font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+
+}
+.menu2 ul li{
+	list-style: none;
+	margin-top: 30px;
+}
+
+.menu-lista{
+position: absolute;
+left: 70%;
+width: 200px;
+height: 250px;
+float: right;
+margin-right: 250px;
+margin-top: 50px;
+border-radius: 30px;
+
+}
+.menu2 li{
+
+	width: 350px;
+	height: 35px;
+	list-style: none;
+	border-radius: 20px;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: -20px;
+	
+
+}
+.menu-lista img{
+	margin-top: 50px;
+	margin-left: -50px;
+	margin-bottom: 50px;
+}
+.texto li{
+	font-size: 18px;
+}
+.menu-lista{
+	margin-top: -800px;
+}
+.imagenes{
+	width: 400px;
+	height: 300px;
+	float: right;
+	margin-top: -850px;
+	margin-right:90px;
+	opacity: 0.9;
+}
+.imagenes img{
+	margin-top:150px;
+	width: 350px;
+	height: 200px;
+	margin-right:250px;
+}
+.pie-pagina{
+width: 100%;
+height: 230px;
+background-color: #0a0a0f;
+opacity: 0.5;
+
+
+}
+.menu-final li{
+	display: inline-block;
+	padding: 20px;
+
+}
+.menu-final{
+	text-align: center;
+	padding: 20px;
+}
+.pie-pagina img{
+
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+}
+
+.pie-pagina p{
+width: 300px;
+float: right;
+margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
