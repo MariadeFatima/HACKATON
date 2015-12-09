@@ -71,6 +71,15 @@ hr{
 .dropdown-menu ul li a {
 	text-align: right;
 }
+
+
+.menu-fixed{
+	position: fixed;
+	z-index:1000;
+	width: 100%;
+	box-shadow: 0px 4px 3px rgba (0,0,0,.5);
+}
+
 /*Carrusel*/
 .item h2{
 	color:#EFECE7;
@@ -130,15 +139,20 @@ h4{
 	opacity: 1;
 }
 /*Noticias 2*/
+
+.noticias-content h1 {
+	color: #95917F;
+	background: #F1F1F1;
+	padding: 10px 50px;
+}
 .noticias{
-	background: url("../img/periodico.jpg");
+
 	text-align: justify;
 }
 .noticias-content{
 	padding: 50px 0px; 
 }
 .news1, .news2, .news3, .news4{
-	border:dashed 1px #95917F;
 	background: #FCFCFC;
 }
 .news1{
@@ -181,12 +195,17 @@ h3, .texto{
 	color:#EFECE7;
 }
 
+
 /*****************CARRERAS********************/
+.titulo-carrera{
+	color:#A30936;
+	margin: 40px 0px 30px 0px;
+}
+
 .carreras{
-	background: url("../img/fondogranito.jpg");
+	/*background: url("../img/fondogranito.jpg");*/
 	text-align: center;
 	color:#333;
-	font-weight: bold;
 	font-family: verdana;
 }
 marquee h3{
@@ -198,20 +217,19 @@ marquee h3{
 }
 .x {
 	display: inline-block;
-	border: solid 1px #333;
+	/*border: solid 1px #333;*/
 	margin: 10px 47.5px;
 	background: transparent;
 }
 .x a{
 	text-decoration: none;
 }
-.x h5, .carreras h5 {
+.x h5 {
 	display: block; /*para que tengan mas cuerpo*/
 	padding: 0px 0px;
 	color:#333;
 	font-family:Verdana;
 	font-size: 18px;
-	font-weight: bold
 }
 .x span{
 	font-size: 100px; 
@@ -233,22 +251,54 @@ marquee h3{
 .x a{
 transition:all 0.5s;
 }
-.carreras .x a:hover{
-transform: scale(1.1);
-}
+.fa-home:hover{
+    color: yellow;
+   }
 
+  .fa-circle:hover{
+   color: white;
+   }
+
+.icon-purple {}
+/*****************FOOTER**********************/
+.footer
+{
+	background: #616161;
+	height: 150px;
+
+}
+.footer p{
+	margin: 0 auto;
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+}
+.social-section{
+
+	padding-left: 0;
+}
+.footer li{
+	display: inline-block;
+
+
+}
+.footer img{
+	padding: 20px;
+}
 /******************HISTORIA********************/
 .historia{
-	background: url("../img/historia.jpg");
 	background-size: cover; 
 	margin:0px;
-	height: 600px;
 }
-.historia h4{
+.img-historia>img{
+	width: 1150px;
+}
+.historia h5{
 	font-family: sans-serif;
-	color:#EFECE7;
+	color:#A2917F;
 	font-size: 35px;
-	margin-top:50px;
+	margin-top:10px;
+	font-weight: bold;
 }
 .historia-content{
 	background: black;
@@ -260,16 +310,17 @@ transform: scale(1.1);
 	margin: 10px 0px;
 }
 .historia p{
-	color:white;
+	color:#C3463F;
 	font-size: 16px;
 	font-family: sans-serif;
+	text-align: justify;
 }
 .text-historia{
 	padding: 20px;
 }
 /********************AUTORIDADES********************/
 .autoridades{
-	background: url("../img/fondogranito.jpg");
+	background: #C5C5C5;
 }
 .autoridades h5{
 	padding-bottom: 20px; 
@@ -277,6 +328,8 @@ transform: scale(1.1);
 .autoridades h1{
 	margin-left:105px;
 	color:#A30936;
+	padding: 30px 0px;
+	font-weight: bold;
 }
 .autoridades h3{
 	color:#ED9819;
